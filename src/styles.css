@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+.bodyBackground{
+    background-color: #DCDCDC;
+}
+
+/* Seccion Estadisticas */
+.borde3d{
+    box-shadow: 
+         inset 0 -3em 3em rgba(0,0,0,0.1), 
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.5);
+}
+
+.statsBackground{
+    background-color: #ffffff;
+}
+.statsTitle{
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+/* Seccion Noticias */
+.bodyNoticias{
+    margin: 20px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.botonNoticias{
+    font-weight: bolder;
+}
