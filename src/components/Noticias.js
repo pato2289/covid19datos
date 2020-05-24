@@ -8,7 +8,7 @@ const Noticias = () => {
 
     const { news } = useCovidNews();
 
-    console.log(news)
+    console.log('el array news trae: ', news)
 
     return (
         <>

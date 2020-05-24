@@ -7,8 +7,12 @@ const useCovidInfo = () => {
 
     useEffect(() => {
         const getData = async () => {
-            const res = await axios(`https://api.covid19api.com/dayone/country/argentina`);
-            getInfo(res.data[res.data.length-1]);
+            axios.get(`https://api.covid19api.com/dayone/country/argentina`)
+            .then(res => {
+                console.log(res)
+                //res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+                getInfo(res.data[res.data.length-1]);
+            })
         }
         getData()
 
